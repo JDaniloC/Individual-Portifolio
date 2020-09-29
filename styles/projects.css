@@ -13,6 +13,30 @@ section#projects h2 {
     margin: 1em 0;
 }
 
+section#projects > ul {
+    position: relative;
+}
+
+section#projects > ul > button {
+    position: absolute;
+    bottom: 50%;
+    width: 4em;
+    z-index: 3;
+    
+    padding: 10px;
+    margin: 2em;
+    border: solid #ccc 1px;
+    
+    background-color: white;
+    border-radius: 100%;
+    background: none;
+    cursor: pointer;
+}
+
+section#projects > ul > button.next {
+    right: 0;
+}
+
 section#projects > ul > li {
     display: flex;
     justify-content: center;
@@ -20,32 +44,32 @@ section#projects > ul > li {
     align-items: center;
 
     border-bottom: solid #EEC643 3em;
-    
-    /* border-radius: 0px 0px 5px 5px; */
 }
 
 section#projects > ul > li.center {
-    z-index: 4;
-    position: absolute;
+    z-index:2;
+    position: relative;
     max-width: min-content;
     background: burlywood;
-    left: 0;
-    right: 0;
     margin: auto;
+    transition: .5s opacity;
 }
 
 section#projects > ul > li.sides {
-    z-index: 3;
+    z-index: 1;
     position: absolute;
     max-width: min-content;
     background: burlywood;
-    right: 20vw;
-    /* 10, 20, 50 */
+    opacity: 10%;
+    top: 0;
+    height: 100%;
+    transition: right 2s, left 2s;
 }
 
 section#projects p {
     padding: 0 2em;
     line-height: 1.5em;
+    text-indent: 1em;
 }
 
 section#projects div.links {

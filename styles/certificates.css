@@ -5,8 +5,19 @@ section#certificates > p {
 
 section#certificates ul {
     display: flex;
+    height: fit-content;
 }
 
 section#certificates ul embed {
     flex: 1;
+    height: 28em;
+    width: 100%;
+}
+
+section#certificates ul li {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }

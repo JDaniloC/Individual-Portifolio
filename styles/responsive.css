@@ -1,0 +1,70 @@
+@media( max-width: 1250px ) {
+    section#certificates > ul {
+        flex-direction: column;
+        height: 37em;
+    }
+}
+
+@media( max-width: 800px ) {
+    section#projects li.sides {
+        display: none;
+    }
+}
+
+@media( max-width: 680px ) {
+    header {
+        width: 100vw !important;
+    }
+
+    header > h2 {
+        display: none;
+    }
+
+    header nav {
+        margin: auto;
+    }
+
+    .main section#about {
+        border-right: 0em;
+    }
+
+    .main section#projects > ul > button {
+        bottom: 5%;
+    }
+    section#projects li {
+        max-width: 100% !important;
+    }
+
+    section#projects li iframe {
+        display: none;
+    }
+
+    footer {
+        width: auto;
+    }
+}
+
+@media( max-width: 450px ) {
+    header nav { 
+        display: none;
+    }
+
+    header h2 {
+        display: block;
+        margin: auto;
+    }
+
+    section#projects li > h2 {
+        display: flex;
+        flex-direction: column;
+    } 
+
+    section#projects li > h2 img {
+        align-self: center;
+        margin-bottom: 0.5em;
+    }
+
+    section#projects ul button {
+        top: auto !important;
+    }
+}

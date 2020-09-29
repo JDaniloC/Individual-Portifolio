@@ -27,5 +27,6 @@ a {
 
 .main > section {
     margin: 5em 2em;
+    max-width: 80em;
 }
 
