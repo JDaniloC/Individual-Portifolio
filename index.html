@@ -4,7 +4,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> JDaniloC </title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/about.css">
+        <link rel="stylesheet" href="styles/projects.css">
+        <link rel="stylesheet" href="styles/certificates.css">
+        <link rel="stylesheet" href="styles/footer.css">
+
         <script src="scripts/main.js"></script>
     </head>
     <body>
@@ -18,22 +26,23 @@
         </header>
         <div class="main">
             <section id="about">
-                <img src="assets/perfil.png" alt="perfil">
+                <h1> Quem sou eu </h1>
+                <img src="assets/perfil.png" align = "left" alt="perfil">
                 <p> 
                     Fala man, qual a bronca? Hoje estou como aluno de ciência da computação no Centro de informática (CIn), na Universidade Federal de Pernambuco (UFPE), Brasil. Gosto de me desafiar com vários projetos sozinho durante as férias (ainda mais no tempo pandêmico ocorrido em 2020 E.C, que é o ano 0 PP, pós pandemia) para aprender e praticar as mais diversas tecnologias. <br>
                     Além disso venho cultivando hobbies como a prática de desenhos (mas não sei pintar), games (apesar de jogar muito mal), violino e claro uma boa leitura (de assuntos relevantes, não me venha com livros da cultura pop). Entretanto conheço muito pouco sobre filmes, séries, animes e animações, ainda assim gostando de assistir no Youtube e cursos.
                 </p>
             </section>
             <section id="projects">
-                <h2> Alguns dos meus projetos </h2>
+                <h1> Alguns dos meus projetos </h1>
                 <ul>
                     <li>
-                        <h3> 
+                        <h2> 
                             <img src="https://img.shields.io/badge/-Python-black?style=flat&logo=python">
                             <img src="https://img.shields.io/badge/-Javascript-black?style=flat&logo=javascript">
                             <img src="https://img.shields.io/badge/-React-black?style=flat&logo=react">
                             Bible Comment 
-                        </h3>
+                        </h2>
                         <p> 
                             Este é o meu projeto de fim de semanas do ano pandemico, no qual a motivação inicial foi de armazenar e compartilhar os meus próprios comentários biblicos. É o primeiro projeto React sozinho, me fazendo praticar essa questão além da conexão com MySql e certas CSS tricks. <br>
                             Tive que criar o backend usando Express, mas não encontrei a tradução da bíblia que eu queria, então eu fiz um scrapy de um site para tal, além disso quebrei muita cabeça com deploy (heroku e netlify), migrations e domínio, mas valeu a pena. <br>
@@ -50,10 +59,10 @@
                         </div>
                     </li>
                     <li>
-                        <h3> 
+                        <h2> 
                             <img src="https://img.shields.io/badge/-Python-black?style=flat&logo=python"> 
                             IQOption Bot 
-                        </h3>
+                        </h2>
                         <p> 
                             Este foi o projeto desenvolvido durante a pandemia, no qual se constitui como um automatizador de trades na plataforma IQ Option. Além de ter sido um grande passo em questão de interface desktop, se tornou o maior projeto escrito por mim até o fim de 2020 (sendo mais de 3k de linhas juntando o bot, bot do telegram, aplicação desktop entre outras coisas). <br>
                             Utilizei meus conhecimentos de várias áreas, no qual é um bot do automatizador, um bot no telegram com botões, um banco de dados usando MongoDB para a computação de licenças e tudo isso rodando no Google Cloud. <br>
@@ -67,7 +76,10 @@
                         <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
                         <div class="links">
                             <a href="https://gitlab.com/JDaniloC/iqbot">
-                                <img src="assets/icons/github.svg" alt="Esse projeto está privado no github/gitlab.">
+                                <img src="assets/icons/gitlab.svg" alt="Esse projeto está privado.">
+                            </a>
+                            <a href="https://github.com/JDaniloC/Individual-IQBot">
+                                <img src="assets/icons/github.svg" alt="Esse projeto está privado.">
                             </a>
                             <a href="https://t.me/MM007_BOT">
                                 <img src="assets/icons/telegram.svg" alt="Para acessar o bot">
@@ -75,7 +87,7 @@
                         </div>
                     </li>
                     <li>
-                        <h3> <img src="https://img.shields.io/badge/-Java-black?style=flat&logo=java"> Pacman em Java </h3>
+                        <h2> <img src="https://img.shields.io/badge/-Java-black?style=flat&logo=java"> Pacman em Java </h2>
                         <p> 
                             Este foi o segundo jogo feito, com o objetivo primário de ser apresentado como projeto da disciplina de introdução a programação, sendo realizado em equipe, porém acabou que tive que fazer sozinho durante as férias. <br>
                             Um projeto interessante para se conhecer um pouco de como criar uma interface gráfica em java, além de criar uma estratégia diferente para cada inimigo, se utilizando de conhecimento de algorítmos como DFS e BFS. <br>
@@ -92,7 +104,7 @@
                         </div>
                     </li>
                     <li>
-                        <h3> <img src="https://img.shields.io/badge/-Python-black?style=flat&logo=python"> Tkinter Game </h3>
+                        <h2> <img src="https://img.shields.io/badge/-Python-black?style=flat&logo=python"> Tkinter Game </h2>
                         <p> 
                             Este projeto foi o meu primeiro game, criado entretanto sem usar uma biblioteca especifica para jogos (como o pygame). Por outro lado foi usado uma biblioteca para interface gráfica (tkinter). A motivação inicial do projeto foi aprender orientação a objetos antes de fazer a cadeira de estrutura de dados, mas acabou indo além, onde uma parte interessante foi desenvolver a rotina dos inimigos me fazendo sempre perder. Além disso utilizei o que aprendi na cadeira de redes para adicionar um multiplayer online além do local.
                         </p>
@@ -109,7 +121,7 @@
                         </div>
                     </li>
                     <li>
-                        <h3> <img src="https://img.shields.io/badge/-Javascript-black?style=flat&logo=javascript"> TodoTxt puro </h3>
+                        <h2> <img src="https://img.shields.io/badge/-Javascript-black?style=flat&logo=javascript"> TodoTxt puro </h2>
                         <p> 
                             Este projeto por sua vez foi feito para treinar e aprender como desenvolver alguma aplicação usando HTML, CSS e JavaScript puro. <br>
                             Nele foi treinado vários conceitos do CSS que ainda não sabia fazer, como uma section fixada ou sobreposta as demais. Assim como implementações javascript + html, como o drag and drop e DOM.
@@ -127,7 +139,7 @@
                         </div>
                     </li>
                     <li>
-                        <h3> <img src="https://img.shields.io/badge/-python-black?style=flat&logo=python"> <img src="https://img.shields.io/badge/-Javascript-black?style=flat&logo=javascript"> LCS para Diff </h3>
+                        <h2> <img src="https://img.shields.io/badge/-python-black?style=flat&logo=python"> <img src="https://img.shields.io/badge/-Javascript-black?style=flat&logo=javascript"> LCS para Diff </h2>
                         <p> 
                             Não sou alguém muito interessado com competições. Mas entendo a importância de exercitar a mente para desenvolver algorítmos bem otimizados, dessa forma me interessei como acontece a comparação de commits no git, dessa forma corri atrás para aprender esses algorítmos. <br>
                             Além do mais, na interface gráfica ousei por curiosidade usando Eel que é uma biblioteca que liga o script python com a web, podendo criar a interface usando HTML normal. E em outra página usei Brython que seria usar o Python como se fosse Javascript podendo renderizar até mesmo tags HTMl.
@@ -145,7 +157,7 @@
                         </div>
                     </li>
                     <li>
-                        <h3> <img src="https://img.shields.io/badge/-python-black?style=flat&logo=python"> TodoTxt Python </h3>
+                        <h2> <img src="https://img.shields.io/badge/-python-black?style=flat&logo=python"> TodoTxt Python </h2>
                         <p> 
                             Este foi o projeto para conclusão da cadeira de Programação 01, com certeza foi o melhor readme.me que já fiz, e o que me impressionou foi a implementação do meu primeiro script de fato. Além disso foi a primeira vez que criei uma interface gráfica, porém eu não sabia nada sobre orientação a objetos, então eu criei a interface gráfica totalmente usando funções, e foi incrívelmente difícil, não me arrependo.
                         </p>
@@ -164,12 +176,13 @@
                 </ul>
             </section>
             <section id="certificates">
+                <h1> Certificados </h1>
                 <p> 
                     Talvez esse espaço seja importante para alguns, para mais informações, ver Linkedin 
                 </p>
                 <ul>
-                    <embed src="assets/certificates/googlepython.pdf">
-                    <embed src="assets/certificates/googleti.pdf">
+                    <embed src="assets/certificates/googlepython.pdf"  height="350">
+                    <embed src="assets/certificates/googleti.pdf" height="350">
                 </ul>
             </section>
         </div>

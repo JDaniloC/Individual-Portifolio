@@ -1,0 +1,20 @@
+section#about {
+    border-right: solid #EEC643 5em;
+    border-radius: 5px;
+    padding: 2em 2em;
+    
+    min-height: 375px;
+    line-height: 2em;
+    background-color: white;
+}
+
+section#about img {
+    border-radius: 30% 100% 100%;
+    width: 15em;
+    margin: 1em;
+}
+
+
+section#about p {
+    font-size: 1.5em;
+}

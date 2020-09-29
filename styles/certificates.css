@@ -1,0 +1,12 @@
+section#certificates > p {
+    font-size: larger;
+    margin: 1em 0;
+}
+
+section#certificates ul {
+    display: flex;
+}
+
+section#certificates ul embed {
+    flex: 1;
+}
