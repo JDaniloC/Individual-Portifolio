@@ -5,7 +5,7 @@ section#certificates > p {
 
 section#certificates ul {
     display: flex;
-    height: fit-content;
+    height: 45em;;
 }
 
 section#certificates ul embed {
